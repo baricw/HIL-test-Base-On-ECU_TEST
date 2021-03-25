@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CompleteDgl</class>
+ <widget class="QDialog" name="CompleteDgl">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>328</width>
+    <height>110</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Complete</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="haha.qrc">
+    <normaloff>:/haha/HaHaBundle.ico</normaloff>:/haha/HaHaBundle.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 255, 0);
+font: 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Complete !</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="haha.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ErrorDgl</class>
+ <widget class="QDialog" name="ErrorDgl">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>325</width>
+    <height>110</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Error</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="error.qrc">
+    <normaloff>:/Error/error_icon.png</normaloff>:/Error/error_icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);
+font: 24pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Error !</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="error.qrc"/>
+ </resources>
+ <connections/>
+</ui>

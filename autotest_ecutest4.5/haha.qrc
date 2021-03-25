@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="haha">
+    <file>HaHaBundle.ico</file>
+  </qresource>
+</RCC>
